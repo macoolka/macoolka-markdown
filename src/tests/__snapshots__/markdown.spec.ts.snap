@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`markdown article 1`] = `
+"article
+
+"
+`;
+
+exports[`markdown blockquote 1`] = `
+"> blockquote 1
+> blockquote 2
+
+"
+`;
+
+exports[`markdown bold 1`] = `"**bold**"`;
+
+exports[`markdown br 1`] = `
+"br
+"
+`;
+
+exports[`markdown cite 1`] = `"**cite**"`;
+
+exports[`markdown code 1`] = `
+"\`\`\`ts
+
+import a from 'a'
+
+\`\`\`
+
+"
+`;
+
+exports[`markdown del 1`] = `"~~del~~"`;
+
+exports[`markdown dfn 1`] = `"**dfn**"`;
+
+exports[`markdown em 1`] = `"**em**"`;
+
+exports[`markdown h1 1`] = `"# h1"`;
+
+exports[`markdown h2 1`] = `"## h2"`;
+
+exports[`markdown h3 1`] = `"### h3"`;
+
+exports[`markdown h4 1`] = `"#### h4"`;
+
+exports[`markdown h5 1`] = `"##### h5"`;
+
+exports[`markdown h6 1`] = `"###### h6"`;
+
+exports[`markdown hr 1`] = `
+"---
+
+"
+`;
+
+exports[`markdown img 1`] = `"![img](https://www.baidu.com/img/bd_logo1.png)"`;
+
+exports[`markdown ins 1`] = `"**ins**"`;
+
+exports[`markdown italic 1`] = `"*italic*"`;
+
+exports[`markdown link 1`] = `"[link](/link)"`;
+
+exports[`markdown mark 1`] = `"**mark**"`;
+
+exports[`markdown ol 1`] = `
+"1. ol1
+1. ol2
+
+"
+`;
+
+exports[`markdown p 1`] = `
+"p
+
+"
+`;
+
+exports[`markdown q 1`] = `"'q'"`;
+
+exports[`markdown section 1`] = `
+"section
+
+"
+`;
+
+exports[`markdown table 1`] = `
+"
+|  head1 | head2  |
+|  --- | ---  |
+|  11 | 12  |
+|  21 | 22  |
+"
+`;
+
+exports[`markdown ul 1`] = `
+"- ul1
+- ul2
+
+"
+`;

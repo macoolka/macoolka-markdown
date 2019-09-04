@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Site all  1`] = `
+"# title
+
+description
+
+**section 1**
+
+content 1
+
+**section 2**
+
+content 2
+
+"
+`;
+
+exports[`Site only required 1`] = `""`;

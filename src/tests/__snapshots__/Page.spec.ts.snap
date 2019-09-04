@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page all  1`] = `
+"---
+title: name
+nav_order: 1
+layout: normal
+has_children: true
+permalink: permaLink
+parent: parent
+nav_exclude: true
+has_toc: true
+search_exclude: true
+---
+
+"
+`;
+
+exports[`Page only required 1`] = `
+"---
+title: name
+nav_order: 1
+layout: normal
+---
+
+"
+`;

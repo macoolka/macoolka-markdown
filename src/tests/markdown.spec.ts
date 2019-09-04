@@ -1,0 +1,86 @@
+import {markdown} from '../markdown';
+
+describe('markdown',()=>{
+    it('h1',()=>{
+        expect(markdown.h1('h1')).toMatchSnapshot();
+    })
+    it('h2',()=>{
+        expect(markdown.h2('h2')).toMatchSnapshot();
+    })
+    it('h3',()=>{
+        expect(markdown.h3('h3')).toMatchSnapshot();
+    })
+    it('h4',()=>{
+        expect(markdown.h4('h4')).toMatchSnapshot();
+    })
+    it('h5',()=>{
+        expect(markdown.h5('h5')).toMatchSnapshot();
+    })
+    it('h6',()=>{
+        expect(markdown.h6('h6')).toMatchSnapshot();
+    })
+    it('bold',()=>{
+        expect(markdown.bold('bold')).toMatchSnapshot();
+    })
+    it('italic',()=>{
+        expect(markdown.italic('italic')).toMatchSnapshot();
+    })
+    it('del',()=>{
+        expect(markdown.del('del')).toMatchSnapshot();
+    })
+    it('q',()=>{
+        expect(markdown.q('q')).toMatchSnapshot();
+    })
+    it('cite',()=>{
+        expect(markdown.cite('cite')).toMatchSnapshot();
+    })
+    it('dfn',()=>{
+        expect(markdown.dfn('dfn')).toMatchSnapshot();
+    })
+    it('ins',()=>{
+        expect(markdown.ins('ins')).toMatchSnapshot();
+    })
+    it('mark',()=>{
+        expect(markdown.mark('mark')).toMatchSnapshot();
+    })
+    it('em',()=>{
+        expect(markdown.em('em')).toMatchSnapshot();
+    })
+    it('ol',()=>{
+        expect(markdown.ol(['ol1','ol2'])).toMatchSnapshot();
+    })
+    it('ul',()=>{
+        expect(markdown.ul(['ul1','ul2'])).toMatchSnapshot();
+    })
+    it('article',()=>{
+        expect(markdown.article('article')).toMatchSnapshot();
+    })
+    it('p',()=>{
+        expect(markdown.p('p')).toMatchSnapshot();
+    })
+    it('br',()=>{
+        expect(markdown.br('br')).toMatchSnapshot();
+    })
+    it('link',()=>{
+        expect(markdown.link('link','/link')).toMatchSnapshot();
+    })
+    it('img',()=>{
+        expect(markdown.img('img','https://www.baidu.com/img/bd_logo1.png')).toMatchSnapshot();
+    })
+    it('code',()=>{
+        expect(markdown.code('ts')(`import a from 'a'`)).toMatchSnapshot();
+    })
+    it('hr',()=>{
+        expect(markdown.hr()).toMatchSnapshot();
+    })
+    it('section',()=>{
+        expect(markdown.section('section')).toMatchSnapshot();
+    })
+    it('blockquote',()=>{
+        expect(markdown.blockquote(['blockquote 1','blockquote 2'])).toMatchSnapshot();
+    })
+    it('table',()=>{
+        expect(markdown.table([['head1','head2'],['11','12'],['21','22']])).toMatchSnapshot();
+    })
+
+})
